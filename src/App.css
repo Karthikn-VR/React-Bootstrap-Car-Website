@@ -1,0 +1,16 @@
+/* .canvas-container {
+  width: 100%;
+  height: 80vh; /* Taller canvas */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111; /* Optional: dark background for contrast */
+  /* padding: 20px;
+  box-sizing: border-box;
+} */
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+} 

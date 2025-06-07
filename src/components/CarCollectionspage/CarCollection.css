@@ -1,0 +1,72 @@
+.collection-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./images/carCollection.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body button {
+  background-color: #E15D47;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin-top: auto; 
+  transition: background-color 0.2s;
+}
+
+
+.card-body button:hover {
+  background-color: #c24433;
+}
+
+form input[type="text"] {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+form .btn-success {
+  background-color: #55ADFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* 5-column layout on large screens */
+@media (min-width: 1200px) {
+  .col-lg-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

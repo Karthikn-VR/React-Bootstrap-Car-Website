@@ -1,0 +1,90 @@
+.glass-navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  transition: background 0.3s ease;
+  z-index: 1030;
+}
+
+.logo-img {
+  height: 160px; 
+  width: auto;
+  margin-right: 0; 
+}
+
+.glass-navbar .navbar-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.glass-navbar .nav-link {
+  position: relative;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+
+.glass-navbar .nav-link:hover {
+  color: #fff !important;
+}
+
+
+.glass-navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px; 
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #C0C0C0;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.glass-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* 
+.nav-btn .btn-outline-light {
+  
+  border-color: #000; 
+  transition: all 0.3s ease;
+  
+}
+
+.nav-btn .btn-outline-light:hover {
+  color: #555;
+  border-color: #555;
+  background-color: #f0f0f0;
+}
+
+.nav-btn .btn-light {
+  background-color: #000; 
+  color: #fff;            
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.nav-btn .btn-light:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+} */

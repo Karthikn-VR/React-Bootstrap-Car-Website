@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+.mb-5{
+
+    margin-top: 3%;
+    text-shadow: 0 0 2px;
+
+}
+footer {
+  background-color: #000; 
+  color: white;
+  
+
+}
+footer a {
+  color: white !important;
+}

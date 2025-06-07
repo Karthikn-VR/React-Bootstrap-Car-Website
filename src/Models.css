@@ -1,0 +1,18 @@
+.carousel-container {
+  position: fixed; 
+  
+}
+
+.carousel-caption {
+  position: absolute;
+  padding: 20px;
+  border-radius: 30px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+.stylecontainer {
+  background-color: #202020;
+  
+}
+
