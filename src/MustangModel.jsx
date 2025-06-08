@@ -2,7 +2,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment,OrbitControls } from "@react-three/drei";
-import Mustang from "./components/public/Mustang.jsx";
+import Mustang from "./Models/Mustang.jsx";
 import { Group } from 'three';
 import './App.css';
 

@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment,OrbitControls } from "@react-three/drei";
-import Porsche from "./components/public/Porsche.jsx";
+import Porsche from "./Models/Porsche.jsx";
 import './App.css'
 
 
