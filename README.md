@@ -88,18 +88,6 @@ npm start
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser to explore the showroom.
 
----
-
-## 🎥 Live Demo & Video Preview
-
-Try out the live app here: [Live Demo Link](https://your-live-demo-link.vercel.app)
-*(Replace with your actual deployment URL)*
-
-Watch the app in action:
-[![Watch Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID)
-*(Replace with your video thumbnail and link)*
-
----
 
 ## 🤝 Contributing
 
