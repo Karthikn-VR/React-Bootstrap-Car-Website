@@ -10,7 +10,7 @@ import Login from "./components/Login/Login";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Bootstrap-Car-Website/">
       <Routes>
         <Route path="/" element={<CarHomepage key="home" />} />
         <Route path="/aboutus" element={<AboutUs key="about" />} />
