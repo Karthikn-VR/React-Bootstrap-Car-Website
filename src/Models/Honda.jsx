@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/Honda.gltf')
+  const { nodes, materials } = useGLTF('/Models/Honda.gltf')
   return (
     <group {...props} dispose={null}>
       <group position={[0.595, 0.292, 1.108]}>
