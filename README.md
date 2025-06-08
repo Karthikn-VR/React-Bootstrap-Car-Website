@@ -45,7 +45,7 @@ Each model is rendered using **React Three Fiber** and **Three.js**, allowing fo
 
 ```
 src/
-├── assets/          # Images, 3D models, and static files
+├── assets/        
 ├── components/      # Reusable UI components
 │   ├── AboutUs/
 │   ├── CarCollectionspage/
@@ -53,7 +53,7 @@ src/
 │   ├── CarNav/
 │   ├── Login/
 │   ├── Text/
-│   └── Models/      # 3D model components
+│   
 ├── App.jsx          # Main app component
 ├── HondaModel.jsx
 ├── MustangModel.jsx
