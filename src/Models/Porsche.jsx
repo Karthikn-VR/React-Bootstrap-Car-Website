@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/Models/Porsche.gltf')
+  const { nodes, materials } = useGLTF('/Cars3DModels/Porsche.gltf')
   return (
     <group {...props} dispose={null}>
       <group position={[-0.015, -0.009, 0.063]} rotation={[-Math.PI / 2, 0, 0]} scale={0.578}>
@@ -71,4 +71,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/Porsche.gltf')
+useGLTF.preload('/Cars3DModels/Porsche.gltf')
